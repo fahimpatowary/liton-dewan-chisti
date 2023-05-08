@@ -1,0 +1,534 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Segoe UI";
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* navber start */
+.Nav-hero {
+    background: url(./images/astrology-bg.png), var(--drak);
+}
+
+nav {
+    background-color: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(248, 248, 248) !important;
+}
+
+nav .container-fluid {
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+}
+
+nav .container-fluid button {
+    color: white;
+    box-shadow: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+nav .container-fluid button:focus {
+    box-shadow: none;
+}
+
+nav .container-fluid .navbar-brand img {
+    max-width: 110px;
+}
+
+nav .container-fluid .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
+    color: var(--primary) !important;
+}
+
+@media screen and (min-width: 1024px) {
+    nav .container-fluid .navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+/* navber end */
+
+/* heros start */
+.heros {
+    padding: 8rem 0;
+    background-color: var(--trasfer-color);
+}
+
+.heros h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.heros h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.heros p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.heros button {
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background: var(--btn-color);
+    border-radius: 6px;
+    border: none;
+    outline: nonie;
+    outline: none;
+}
+
+.heor-img {
+    animation-name: heroImage;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heroImage {
+    0% {
+        transform: translateY(-7px);
+    }
+
+    20% {
+        transform: translateY(-3px);
+    }
+
+    35% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    70% {
+        transform: translateY(5px);
+    }
+
+    80% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(-7px);
+    }
+}
+
+.heros-right i {
+    font-size: 40px;
+    color: var(--btn-color);
+    margin-right: .8rem;
+}
+
+.heros-right h4 {
+    font-size: 25px;
+    color: white;
+}
+
+.heros-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.heros-right ul li:not(:last-child) {
+    font-size: 25px;
+    color: white;
+    margin-bottom: .7rem;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1023px) {
+    .heros {
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .heros .heor-img {
+        width: 70%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .heros-right ul {
+        margin-bottom: 0;
+    }
+
+    .heros-right ul li:last-child p{
+        margin-bottom: 0;
+    }
+}
+/* heros end */
+
+/* my work start */
+.my-work {
+    padding: 40px 0;
+    background-color: var(--trasfer-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.my-work img{
+    width: auto;
+    max-width: 250px;
+    animation-name: heroImage;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.my-work .carousel{
+    padding: 7rem 0;
+}
+
+.my-work .carousel img{
+    animation: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .my-work .carousel {
+        padding: 4rem 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .my-work img {
+        width: 63%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .my-work .carousel {
+        padding: .5rem 0;
+    }
+
+    .my-work {
+        padding-bottom: 12px;
+    }
+}
+/* my work end */
+
+/* my services start */
+.services h4{
+    width: 100%;
+}
+
+.services h1{
+    max-width: 400px;
+}
+
+.services .services-card{
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(98, 98, 98);
+    background-color: rgba(55, 55, 55, 0.656);
+}
+
+.services .services-card .img-box{
+    margin-bottom: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.services .services-card .img-box img{
+    animation: none;
+    width: 80px;
+    max-height: 110px;
+}
+
+.services .services-card h4{
+    color: white !important;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .services .services-card {
+        padding: 10px;
+    }
+
+    .services .services-card .img-box img {
+        margin: 0;
+    }
+}
+/* my services end */
+
+/* consultation start */
+.consultation img{
+    max-width: 380px;
+}
+
+.beginners img{
+    max-height: 100% !important;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    animation: none;
+}
+
+.video-div{
+    position: relative;
+    
+}
+
+.beginners .video{
+    position: absolute;
+    top: calc((100% - 80px)/2);
+}
+
+.beginners .video i{
+    background-color: var(--btn-color);
+    padding: 19px 28px;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.beginners .video i:hover{
+    scale: 1.1;
+    color: var(--btn-color);
+    background-color: white;
+    cursor: pointer;
+}
+
+.youtube{
+    position: fixed;
+    padding: 4rem 8rem;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+.youtube div{
+    margin-top: -40px;
+}
+
+.youtube i{
+    font-size: 26px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .youtube .frist-div {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .youtube{
+        display: flex;
+        align-items: center;
+    }
+
+    .youtube .frist-div {
+        height: 100%;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .consultation img {
+        width: 80%;
+        max-width: auto !important;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .video-div {
+        padding: 0;
+    }
+
+    .beginners img{
+        width: 100%;
+        max-width: auto !important;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .youtube {
+        padding: 4rem 2rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .youtube iframe {
+        height: auto;
+        width: 100%;
+    }
+}
+/* consultation end */
+
+
+/* my clients start */
+.clients .services-card .img-box {
+    margin-bottom: 20px;
+    height: 82px;
+}
+
+.clients ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    color: orange;
+}
+
+.clients ul li i:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+.clients .services-card .img-box img{
+    border-radius: 50% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .clients .services-card .img-box {
+        justify-content: center;
+    }
+}
+/* my clients end */
+
+
+/* Fqa start */
+.fqa .accordion-item{
+    background: none;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #a5a5a5;
+    color: white;
+}
+
+.fqa .accordion-item .accordion-button,
+.fqa .accordion-item .accordion-header{
+    background: none !important;
+    padding: 0;
+    outline: none;
+    color: white;
+    box-shadow: none;
+    border-radius: none;
+    font-size: 20px;
+}
+
+.fqa .accordion-item:first-of-type .accordion-button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.fqa .accordion-button:not(.collapsed)::after,
+.fqa .accordion-button::after {
+    background-color: white;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 767px) {
+    .fqa img{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+}
+/* Fqa start */
+
+/* footer start */
+footer{
+    width: 100%;
+    background: url(./images/astrology-bg.png), #000000;
+    /* background-size: contain; */
+}
+
+footer .bg{
+    background-color: #000000ab;
+}
+
+footer h1{
+    font-weight: 700;
+}
+
+footer h4{
+    color: var(--primary);
+}
+
+footer .justify-content-between p{
+    text-align: justify;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li{
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+footer ul li a{
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.copy-right{
+    border-top: 1px solid rgb(171, 171, 171);
+}
+
+@media screen and (max-width: 767px) {
+    footer{
+        padding-top: 25px;
+    }
+}
+/* footer end */
+
+:root {
+    --drak: #21212c;
+    --primary: #ba9a63;
+    --trasfer-color: #21212cc7;
+    --btn-color: #EC4400;
+}

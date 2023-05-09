@@ -11,6 +11,10 @@ img {
     height: auto;
 }
 
+p{
+    font-size: 18px;
+}
+
 /* navber start */
 .Nav-hero {
     background: url(./images/astrology-bg.png), var(--drak);
@@ -196,6 +200,39 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 /* heros end */
 
+/* about me start */
+.about-me{
+    color: black;
+    background-color: #ebebeb;
+}
+
+.about-me h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.about-me h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.about-me .heros p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-me img{
+    width: 65%;
+}
+/* about me end */
+
+.Frist-carosul-section{
+    background-color: black;
+}
+
 /* my work start */
 .my-work {
     padding: 40px 0;
@@ -254,20 +291,29 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 /* my work end */
 
 /* my services start */
-.services h4{
-    width: 100%;
+.services{
+    background-color: #e9e9e9;
 }
 
-.services h1{
-    max-width: 400px;
+.services h4,
+.Galary h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.services h1 {
+    max-width: 500px;
+    color: black;
 }
 
 .services .services-card{
     padding: 25px;
     border-radius: 5px;
     margin-bottom: 25px;
-    border: 1px solid rgb(98, 98, 98);
-    background-color: rgba(55, 55, 55, 0.656);
+    color: black !important;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: rgba(200, 200, 200, 0.656);
 }
 
 .services .services-card .img-box{
@@ -284,9 +330,13 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .services .services-card h4{
-    color: white !important;
     font-size: 28px;
     margin-bottom: 20px;
+}
+
+.services .services-card p{
+    font-size: 18px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
@@ -300,11 +350,38 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 /* my services end */
 
+.Galary{
+    background: url(./images/astrology-bg.png), var(--drak);
+}
+
+.Galary-div{
+    background-color: rgba(50, 50, 50, 0.621);
+}
+
 /* consultation start */
+.consultation{
+    background-color: var(--trasfer-color);
+}
+
 .consultation img{
     max-width: 380px;
 }
 
+.consultation h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.consultation h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary);
+}
+/* consultation end */
+
+/* beginners start */
 .beginners img{
     max-height: 100% !important;
     width: 100%;
@@ -413,13 +490,16 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         width: 100%;
     }
 }
-/* consultation end */
+/* beginners start */
 
 
 /* my clients start */
 .clients .services-card .img-box {
     margin-bottom: 20px;
     height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients ul {

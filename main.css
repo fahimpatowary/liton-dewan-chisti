@@ -365,6 +365,10 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 .consultation img{
     max-width: 380px;
+    animation-name: heroImage;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: none;
 }
 
 .consultation h1{

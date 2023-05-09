@@ -22,6 +22,13 @@ nav {
     border-bottom: 1px solid rgb(248, 248, 248) !important;
 }
 
+nav h4{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px 0;
+}
+
 nav .container-fluid {
     display: flex;
     max-width: 1280px;
@@ -66,7 +73,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 /* heros start */
 .heros {
-    padding: 8rem 0;
+    padding: 4rem 0;
     background-color: var(--trasfer-color);
 }
 
@@ -104,6 +111,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     animation-name: heroImage;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    border-radius: none;
+}
+
+.heor-img img {
+    width: 70%;
 }
 
 @keyframes heroImage {
@@ -162,6 +174,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 @media screen and (max-width: 1023px) {
     .heros {
         padding: 4rem 0;
+        padding-bottom: 0;
     }
 }
 
@@ -193,7 +206,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 .my-work img{
     width: auto;
-    max-width: 250px;
+    max-width: 380px;
     animation-name: heroImage;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -207,6 +220,10 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     animation: none;
 }
 
+.cartificatin-carousel img{
+ border-radius: 5px;
+}
+
 @media screen and (max-width: 1023px) {
     .my-work .carousel {
         padding: 4rem 0;
@@ -217,7 +234,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 @media screen and (max-width: 767px) {
     .my-work img {
         width: 63%;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 40px;
     }
 
@@ -227,6 +244,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
     .my-work {
         padding-bottom: 12px;
+    }
+
+    .carousel img{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 /* my work end */
@@ -513,6 +535,11 @@ footer ul li a{
 
 footer ul li a:hover{
     color: rgb(255, 255, 255);
+}
+
+footer img{
+    width: auto;
+    max-height: 170px;
 }
 
 .copy-right{

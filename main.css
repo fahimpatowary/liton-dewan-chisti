@@ -628,6 +628,10 @@ footer .justify-content-between p{
     text-align: justify;
 }
 
+footer h4{
+    color: var(--primary);
+}
+
 footer ul{
     list-style: none;
     padding: 0;
@@ -662,6 +666,10 @@ footer img{
 
 .copy-right{
     border-top: 1px solid rgb(171, 171, 171);
+}
+
+.copy-right p{
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {

@@ -13,6 +13,7 @@ img {
 
 p{
     font-size: 18px;
+    text-align: justify;
 }
 
 /* navber start */
@@ -225,12 +226,21 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .about-me img{
-    width: 65%;
+    height: 400px;
+    width: auto;
 }
 /* about me end */
 
 .Frist-carosul-section{
     background-color: black;
+}
+
+.owl-carousel .owl-item img{
+    height: 310px;
+}
+
+.Frist-carosul-section .owl-carousel .owl-item  img{
+    height: auto !important;
 }
 
 /* my work start */
@@ -364,11 +374,12 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .consultation img{
-    max-width: 380px;
-    animation-name: heroImage;
+    max-width: 100%;
+    /* animation-name: heroImage;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
     border-radius: none;
+    border-radius: 12px;
 }
 
 .consultation h1{
@@ -386,10 +397,32 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 /* consultation end */
 
 /* beginners start */
+.beginners{
+    color: rgb(0, 0, 0);
+    background-color: #21212c08;
+}
+
+.beginners h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.beginners h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.beginners i{
+    color: rgb(255, 255, 255);
+}
+
 .beginners img{
     max-height: 100% !important;
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     animation: none;

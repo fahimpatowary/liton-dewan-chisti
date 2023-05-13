@@ -226,8 +226,8 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .about-me img{
-    height: 400px;
-    width: auto;
+    max-width: 95%;
+    border-radius: 10px;
 }
 /* about me end */
 
@@ -313,7 +313,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .services h1 {
-    max-width: 500px;
+    max-width: 680px;
     color: black;
 }
 

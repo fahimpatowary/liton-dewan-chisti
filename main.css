@@ -74,6 +74,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     }
 }
 
+@media screen and (min-width: 360px) {
+    nav h4 {
+        font-size: 28px;
+    }
+}
 /* navber end */
 
 /* heros start */

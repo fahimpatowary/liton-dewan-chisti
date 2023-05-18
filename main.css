@@ -11,9 +11,19 @@ img {
     height: auto;
 }
 
-p{
+p {
     font-size: 18px;
     text-align: justify;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    padding-right: 30px;
+    padding-left: 25px;
 }
 
 /* navber start */
@@ -27,7 +37,7 @@ nav {
     border-bottom: 1px solid rgb(248, 248, 248) !important;
 }
 
-nav h4{
+nav h4 {
     margin-bottom: 0;
     font-weight: 700;
     font-size: 35px;
@@ -79,6 +89,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         font-size: 28px;
     }
 }
+
 /* navber end */
 
 /* heros start */
@@ -192,6 +203,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     .heros {
         padding: 1rem 0;
     }
+
     .heros .heor-img {
         width: 70%;
         margin: auto;
@@ -203,14 +215,15 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         margin-bottom: 0;
     }
 
-    .heros-right ul li:last-child p{
+    .heros-right ul li:last-child p {
         margin-bottom: 0;
     }
 }
-/* heros end */ 
+
+/* heros end */
 
 /* about me start */
-.about-me{
+.about-me {
     color: black;
     background-color: #ebebeb;
 }
@@ -222,7 +235,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     text-align: justify;
 }
 
-.about-me h4{
+.about-me h4 {
     font-weight: 700;
     font-size: 40px;
     color: var(--primary);
@@ -233,21 +246,22 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     text-align: justify;
 }
 
-.about-me img{
+.about-me img {
     max-width: 95%;
     border-radius: 10px;
 }
+
 /* about me end */
 
-.Frist-carosul-section{
+.Frist-carosul-section {
     background-color: black;
 }
 
-.owl-carousel .owl-item img{
+.owl-carousel .owl-item img {
     height: 310px;
 }
 
-.Frist-carosul-section .owl-carousel .owl-item  img{
+.Frist-carosul-section .owl-carousel .owl-item img {
     height: auto !important;
 }
 
@@ -259,7 +273,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     background-repeat: no-repeat;
 }
 
-.my-work img{
+.my-work img {
     width: auto;
     max-width: 380px;
     animation-name: heroImage;
@@ -267,16 +281,16 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     animation-iteration-count: infinite;
 }
 
-.my-work .carousel{
+.my-work .carousel {
     padding: 7rem 0;
 }
 
-.my-work .carousel img{
+.my-work .carousel img {
     animation: none;
 }
 
-.cartificatin-carousel img{
- border-radius: 5px;
+.cartificatin-carousel img {
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -301,15 +315,16 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         padding-bottom: 12px;
     }
 
-    .carousel img{
+    .carousel img {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
+
 /* my work end */
 
 /* my services start */
-.services{
+.services {
     background-color: #e9e9e9;
 }
 
@@ -325,7 +340,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     color: black;
 }
 
-.services .services-card{
+.services .services-card {
     padding: 25px;
     border-radius: 5px;
     margin-bottom: 25px;
@@ -334,25 +349,25 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     background-color: rgba(200, 200, 200, 0.656);
 }
 
-.services .services-card .img-box{
+.services .services-card .img-box {
     margin-bottom: 20px;
     height: 120px;
     display: flex;
     align-items: center;
 }
 
-.services .services-card .img-box img{
+.services .services-card .img-box img {
     animation: none;
     width: 80px;
     max-height: 110px;
 }
 
-.services .services-card h4{
+.services .services-card h4 {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.services .services-card p{
+.services .services-card p {
     font-size: 18px;
     text-align: justify;
 }
@@ -371,7 +386,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .services .services-card{
+    .services .services-card {
         margin-bottom: 15px;
     }
 
@@ -382,10 +397,10 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         height: auto;
     }
 
-    .services .services-card p{
+    .services .services-card p {
         height: auto;
     }
-    
+
     .services .services-card {
         padding: 10px;
     }
@@ -394,22 +409,23 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         margin: 0;
     }
 }
+
 /* my services end */
 
-.Galary{
+.Galary {
     background: url(./images/astrology-bg.png), var(--drak);
 }
 
-.Galary-div{
+.Galary-div {
     background-color: rgba(50, 50, 50, 0.621);
 }
 
 /* consultation start */
-.consultation{
+.consultation {
     background-color: var(--trasfer-color);
 }
 
-.consultation img{
+.consultation img {
     max-width: 100%;
     /* animation-name: heroImage;
     animation-duration: 2s;
@@ -418,14 +434,14 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     border-radius: 12px;
 }
 
-.consultation h1{
+.consultation h1 {
     font-weight: 700;
     font-size: 25px;
     line-height: 1.4;
     text-align: justify;
 }
 
-.consultation h4{
+.consultation h4 {
     font-weight: 700;
     font-size: 40px;
     color: var(--primary);
@@ -436,15 +452,16 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         font-size: 30px;
         text-align: justify;
     }
-    
+
     .consultation h1 {
         font-size: 22px;
     }
 }
+
 /* consultation end */
 
 /* beginners start */
-.beginners{
+.beginners {
     color: rgb(0, 0, 0);
     background-color: #21212c08;
 }
@@ -462,11 +479,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     text-align: justify;
 }
 
-.beginners i{
+.beginners i {
     color: rgb(255, 255, 255);
 }
 
-.beginners img{
+.beginners img {
     max-height: 445px !important;
     width: auto;
     max-width: 100%;
@@ -475,17 +492,17 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     animation: none;
 }
 
-.video-div{
+.video-div {
     position: relative;
-    
+
 }
 
-.beginners .video{
+.beginners .video {
     position: absolute;
     top: calc((100% - 80px)/2);
 }
 
-.beginners .video i{
+.beginners .video i {
     background-color: var(--btn-color);
     padding: 19px 28px;
     font-size: 40px;
@@ -495,14 +512,14 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     transition: all .5s;
 }
 
-.beginners .video i:hover{
+.beginners .video i:hover {
     scale: 1.1;
     color: var(--btn-color);
     background-color: white;
     cursor: pointer;
 }
 
-.youtube{
+.youtube {
     position: fixed;
     padding: 4rem 8rem;
     height: 100vh;
@@ -512,11 +529,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.571);
 }
 
-.youtube div{
+.youtube div {
     margin-top: -40px;
 }
 
-.youtube i{
+.youtube i {
     font-size: 26px;
     margin-bottom: 10px;
     background-color: white;
@@ -531,8 +548,8 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .youtube{
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .youtube {
         display: flex;
         align-items: center;
     }
@@ -554,7 +571,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         padding: 0;
     }
 
-    .beginners img{
+    .beginners img {
         width: 95%;
         max-width: auto !important;
         margin-top: 0px;
@@ -573,6 +590,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         width: 100%;
     }
 }
+
 /* beginners start */
 
 
@@ -596,17 +614,17 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     margin-right: 0.3rem;
 }
 
-.clients .services-card .img-box img{
+.clients .services-card .img-box img {
     border-radius: 50% !important;
 }
 
 
 @media screen and (max-width: 1023px) {
-    .clients .services-card p{
+    .clients .services-card p {
         height: 129px;
     }
-    
-    .clients .services-card h4{
+
+    .clients .services-card h4 {
         height: 61px;
     }
 }
@@ -615,16 +633,17 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     .clients .services-card .img-box {
         justify-content: center;
     }
-    
-    .clients .services-card h4{
+
+    .clients .services-card h4 {
         height: 24px;
     }
 }
+
 /* my clients end */
 
 
 /* Fqa start */
-.fqa .accordion-item{
+.fqa .accordion-item {
     background: none;
     border: none;
     padding-bottom: 20px;
@@ -634,7 +653,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .fqa .accordion-item .accordion-button,
-.fqa .accordion-item .accordion-header{
+.fqa .accordion-item .accordion-header {
     background: none !important;
     padding: 0;
     outline: none;
@@ -658,57 +677,58 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .fqa img{
+    .fqa img {
         margin-top: 0;
         margin-bottom: 15px;
     }
 }
+
 /* Fqa start */
 
 /* footer start */
-footer{
+footer {
     width: 100%;
     background: url(./images/astrology-bg.png), #000000;
     /* background-size: contain; */
 }
 
-footer .bg{
+footer .bg {
     background-color: #000000ab;
 }
 
-footer h1{
+footer h1 {
     font-weight: 700;
     font-size: 2.3rem;
 }
 
-footer h4{
+footer h4 {
     color: var(--primary);
 }
 
-footer .justify-content-between p{
+footer .justify-content-between p {
     text-align: justify;
 }
 
-footer h4{
+footer h4 {
     color: var(--primary);
 }
 
-footer ul{
+footer ul {
     list-style: none;
     padding: 0;
 }
 
-footer ul li{
+footer ul li {
     color: rgb(212, 212, 212);
     font-size: 18px;
     font-weight: 600;
 }
 
-footer ul li:not(:last-child){
+footer ul li:not(:last-child) {
     margin-bottom: 10px;
 }
 
-footer ul li a{
+footer ul li a {
     color: rgb(212, 212, 212);
     font-size: 18px;
     font-weight: 600;
@@ -716,38 +736,39 @@ footer ul li a{
     margin-bottom: 10px;
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
-footer img{
+footer img {
     width: auto;
     max-height: 170px;
 }
 
-.copy-right{
+.copy-right {
     border-top: 1px solid rgb(171, 171, 171);
 }
 
-.copy-right p{
+.copy-right p {
     text-align: center;
 }
 
 @media screen and (max-width: 1023px) {
-    footer h1{
+    footer h1 {
         font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width: 767px) {
-    footer h1{
+    footer h1 {
         font-size: 2.4rem;
     }
 
-    footer{
+    footer {
         padding-top: 25px;
     }
 }
+
 /* footer end */
 
 :root {

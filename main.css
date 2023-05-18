@@ -379,7 +379,11 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         font-size: 20px;
         margin-bottom: 20px;
         text-align: justify;
-        height: 74px;
+        height: auto;
+    }
+
+    .services .services-card p{
+        height: auto;
     }
     
     .services .services-card {

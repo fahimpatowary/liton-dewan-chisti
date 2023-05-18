@@ -178,12 +178,15 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 @media screen and (max-width: 1023px) {
     .heros {
-        padding: 4rem 0;
-        padding-bottom: 0;
+        padding: 2rem 0;
+        padding-bottom: 1rem;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .heros {
+        padding: 1rem 0;
+    }
     .heros .heor-img {
         width: 70%;
         margin: auto;
@@ -199,7 +202,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
         margin-bottom: 0;
     }
 }
-/* heros end */
+/* heros end */ 
 
 /* about me start */
 .about-me{
@@ -349,7 +352,20 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     text-align: justify;
 }
 
+
+@media screen and (max-width: 1023px) {
+    .services .services-card h4 {
+        font-size: 26px;
+        }
+}
+
 @media screen and (max-width: 767px) {
+    .services .services-card h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    
     .services .services-card {
         padding: 10px;
     }
@@ -393,6 +409,17 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     font-weight: 700;
     font-size: 40px;
     color: var(--primary);
+}
+
+@media screen and (max-width: 767px) {
+    .consultation h4 {
+        font-size: 30px;
+        text-align: justify;
+    }
+    
+    .consultation h1 {
+        font-size: 22px;
+    }
 }
 /* consultation end */
 
@@ -498,9 +525,8 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 @media screen and (max-width: 767px) {
     .consultation img {
-        width: 80%;
+        width: 90%;
         max-width: auto !important;
-        margin-top: 30px;
         margin-bottom: 0px;
     }
 
@@ -509,7 +535,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     }
 
     .beginners img{
-        width: 100%;
+        width: 95%;
         max-width: auto !important;
         margin-top: 0px;
         margin-bottom: 20px;
@@ -672,7 +698,17 @@ footer img{
     text-align: center;
 }
 
+@media screen and (max-width: 1023px) {
+    footer h1{
+        font-size: 1.3rem;
+    }
+}
+
 @media screen and (max-width: 767px) {
+    footer h1{
+        font-size: 2.4rem;
+    }
+
     footer{
         padding-top: 25px;
     }

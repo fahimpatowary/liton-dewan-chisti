@@ -355,15 +355,26 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 @media screen and (max-width: 1023px) {
     .services .services-card h4 {
-        font-size: 26px;
-        }
+        height: 95px;
+        overflow: hidden;
+    }
+
+    .services .services-card p {
+        height: 516px;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    .services .services-card{
+        margin-bottom: 15px;
+    }
+
     .services .services-card h4 {
         font-size: 20px;
         margin-bottom: 20px;
         text-align: justify;
+        height: 74px;
     }
     
     .services .services-card {
@@ -580,9 +591,24 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     border-radius: 50% !important;
 }
 
+
+@media screen and (max-width: 1023px) {
+    .clients .services-card p{
+        height: 129px;
+    }
+    
+    .clients .services-card h4{
+        height: 61px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .clients .services-card .img-box {
         justify-content: center;
+    }
+    
+    .clients .services-card h4{
+        height: 24px;
     }
 }
 /* my clients end */
@@ -625,7 +651,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 @media screen and (max-width: 767px) {
     .fqa img{
         margin-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
 }
 /* Fqa start */

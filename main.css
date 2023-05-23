@@ -247,7 +247,6 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .about-me img {
-    max-width: 95%;
     border-radius: 10px;
 }
 
@@ -426,10 +425,6 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 }
 
 .consultation img {
-    max-width: 100%;
-    /* animation-name: heroImage;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; */
     border-radius: none;
     border-radius: 12px;
 }
@@ -449,8 +444,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 @media screen and (max-width: 767px) {
     .consultation h4 {
-        font-size: 30px;
-        text-align: justify;
+        font-size: 26px;
     }
 
     .consultation h1 {
@@ -476,7 +470,7 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
     font-weight: 700;
     font-size: 25px;
     line-height: 1.4;
-    text-align: justify;
+    color: var(--primary);
 }
 
 .beginners i {
@@ -562,7 +556,6 @@ nav .container-fluid .navbar-nav .nav-item .nav-link:hover {
 
 @media screen and (max-width: 767px) {
     .consultation img {
-        width: 90%;
         max-width: auto !important;
         margin-bottom: 0px;
     }
